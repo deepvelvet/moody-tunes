@@ -1,0 +1,123 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://img.freepik.com/free-photo/businessman-with-umbrella-rainy-city_53876-98407.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: 120%;
+    font-family: "IBM Plex Sans", sans-serif;
+ 
+    
+}
+
+
+
+
+.card {
+    background-color: rgba(0,0,139,.8);
+    color: white;
+    padding: 1em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    left: 47px;
+    margin-left: 390px;
+    font-family: "IBM Plex Sans", sans-serif;;
+    
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: .5em;
+    border-radius: 50%;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+    height: 44px;
+    width: 44px;
+    background-color: rgba(173,216,230,.8);
+    cursor: pointer;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: .4em 1em;
+    border-radius: 24px;
+    background: rgba(173,216,230,.8);
+    color: white;
+    font-size: 105%;
+    width: calc(100% - 100px);
+
+}
+
+button:hover {
+    background: #efe6e6f6;
+}
+
+h1.temp {
+    margin:0;
+    margin-bottom: .4em;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading::after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0,0,139,.8);
+    color: white;
+    font-size: 30px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    border-radius: 24px;
+    right: 50px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 3rem;
+  
+  }
+
+  
+.fade-in {
+    animation: fadeIn 2s;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+  
+    }
+    
+    to {
+      opacity: 1;
+    }
+  }
