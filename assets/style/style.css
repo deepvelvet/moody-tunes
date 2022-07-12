@@ -5,25 +5,22 @@ body {
     background-position: center;
     background-size: cover;
     font-size: 120%;
-    font-family: "IBM Plex Sans", sans-serif;
- 
-    
+    font-family: forma-djr-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
-
-
 .card {
-    background-color: rgba(0,0,139,.8);
+    background-color: rgba(237, 120, 120, 0.8);
     color: white;
     padding: 1em;
-    border-radius: 30px;
     width: 100%;
     max-width: 420px;
     margin: 1em;
     left: 47px;
-    margin-left: 390px;
-    font-family: "IBM Plex Sans", sans-serif;;
+    margin-left: 15px;
+    font-family: forma-djr-text, sans-serif;
     
 }
 
@@ -35,7 +32,6 @@ body {
 
 button {
     margin: .5em;
-    border-radius: 50%;
     border: none;
     height: 2.5em;
     width: 2.5em;
@@ -49,7 +45,6 @@ input.search-bar {
     border: none;
     outline: none;
     padding: .4em 1em;
-    border-radius: 24px;
     background: rgba(173,216,230,.8);
     color: white;
     font-size: 105%;
@@ -93,18 +88,18 @@ h1.temp {
 
 .header {
     padding: 10px;
-    text-align: center;
-    background-color: rgba(0,0,139,.8);
-    color: white;
-    font-size: 30px;
-    margin-left: 15rem;
+    text-align: left;
+    color: black;
+    font-size: 50px;
+    margin-left: 2rem;
     margin-right: 15rem;
-    border-radius: 24px;
     right: 50px;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 3rem;
-  
+    font-family: fit, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
   }
+
 
   
 .fade-in {
