@@ -12,8 +12,8 @@ body {
 
 
 .card {
-    background-color: rgba(237, 120, 120, 0.8);
-    color: white;
+    background-color: rgba(173,216,230,.8);
+    color: rgb(120, 120, 120);
     padding: 1em;
     width: 100%;
     max-width: 420px;
@@ -35,9 +35,9 @@ button {
     border: none;
     height: 2.5em;
     width: 2.5em;
-    height: 44px;
-    width: 44px;
-    background-color: rgba(173,216,230,.8);
+    height: 40px;
+    width: 40px;
+    background: rgba(255, 255, 255, 0.8);
     cursor: pointer;
 }
 
@@ -45,8 +45,8 @@ input.search-bar {
     border: none;
     outline: none;
     padding: .4em 1em;
-    background: rgba(173,216,230,.8);
-    color: white;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
     font-size: 105%;
     width: calc(100% - 100px);
 
@@ -89,13 +89,12 @@ h1.temp {
 .header {
     padding: 10px;
     text-align: left;
-    color: black;
+    color: rgba(250, 0, 0, 0.8);
     font-size: 50px;
     margin-left: 2rem;
     margin-right: 15rem;
     right: 50px;
     font-family: fit, sans-serif;
-    font-weight: 400;
     font-style: normal;
     font-size: 5rem;
   }
