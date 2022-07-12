@@ -16,7 +16,7 @@ body {
     color: rgb(120, 120, 120);
     padding: 1em;
     width: 100%;
-    max-width: 420px;
+    max-width: 375px;
     margin: 1em;
     left: 47px;
     margin-left: 15px;
@@ -87,16 +87,15 @@ h1.temp {
 }
 
 .header {
-    padding: 10px;
+    padding: 20px;
     text-align: left;
-    color: rgba(250, 0, 0, 0.8);
-    font-size: 50px;
-    margin-left: 2rem;
-    margin-right: 15rem;
+    color: rgba(184, 1, 1, 0.9);
+    font-size: 6rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
     right: 50px;
     font-family: fit, sans-serif;
     font-style: normal;
-    font-size: 5rem;
   }
 
 
