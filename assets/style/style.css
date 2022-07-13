@@ -14,6 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 1em;
 }
 
 .card {
@@ -91,7 +92,7 @@ h1.temp {
 .description {
     text-transform: capitalize;
     margin-left: 8px;
-  }
+}
 
 .weather.loading {
     visibility: hidden;
@@ -125,7 +126,7 @@ h1.temp {
     animation: fadeIn 2s;
   }
   
-  @keyframes fadeIn {
+@keyframes fadeIn {
     from {
       opacity: 0;
   
@@ -134,7 +135,7 @@ h1.temp {
     to {
       opacity: 1;
     }
-  }
+}
 
 #youtubeContainerTitle {
     padding: 1px;
