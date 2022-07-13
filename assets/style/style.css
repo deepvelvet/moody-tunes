@@ -149,13 +149,12 @@ h1.temp {
 
 #videoContainer {
     position: relative;
-    height: 350px;
-    padding: 1em;
+    width: 100%;
+    height: auto;
 }
 
 #embedVideoOne {
-    height: 100%;
-    left: 0;
+    height: auto;
     width: 100%;
     align-content: center;
 }
