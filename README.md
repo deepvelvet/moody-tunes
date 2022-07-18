@@ -13,6 +13,7 @@ Group roles
   - Clark Hou: Weather API/Youtube API/Html/Css
   - David Miller: Css
   - John Sheridan: Presentation
+  - Daniel Chow
 
 Link To Projects Deployed Address
 
