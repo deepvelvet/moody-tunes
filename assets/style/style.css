@@ -11,6 +11,14 @@ body {
     padding: 75px;
 }
 
+footer {
+    color: rgba(255, 0, 0, 0.9);
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    }
+
 .content {
     display: flex;
     justify-content: space-between;

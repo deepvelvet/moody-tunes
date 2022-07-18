@@ -1,4 +1,4 @@
-const youtubeApiKey = 'AIzaSyCIUQaNxPpz2CasUbE2-KC2S_ci06GhnRw'
+const youtubeApiKey = 'AIzaSyD37zjg5w1pggwE0gquaOEZ8rqJqxxF5cI';
 const videoContainer = document.querySelector('#videoContainer');
 const embedVideoOne = document.querySelector("#embedVideoOne");
 const youtubeContainerTitle = document.querySelector('#youtubeContainerTitle');
@@ -69,7 +69,9 @@ var callYoutubeApi = function (videoId) {
     response.json().then(function (data) {
         console.log(data);
         let embedUrl = 'https://www.youtube.com/embed/' + videoId;
+        console.log("++++++")
         console.log(embedUrl);
+        console.log("+++++++")
         embedVideoOne.setAttribute('src', '');
         embedVideoOne.setAttribute('src', embedUrl);
     })
