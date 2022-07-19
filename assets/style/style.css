@@ -8,7 +8,16 @@ body {
     font-family: forma-djr-text, sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding: 75px;
 }
+
+footer {
+    color: rgba(255, 0, 0, 0.9);
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    }
 
 .content {
     display: flex;
