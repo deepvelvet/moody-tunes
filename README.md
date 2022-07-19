@@ -9,9 +9,9 @@ Tecnologies used
       * Accuweather API
 
 Group roles
-  - Chris Champagne: Weather API/Html/Css
+  - Chris Champagne: Weather API/HTML/CSS
   - Clark Hou: Javascript/Weather API/Youtube API/Html/Css
-  - David Miller: Css
+  - David Miller: CSS/HTML
   - John Sheridan: Presentation/Github
   - Daniel Chow
 
