@@ -17,11 +17,11 @@ Group roles
 
 Link To Projects Deployed Address
 
-https://camo282.github.io/moody-tunes/
+https://deepvelvet.github.io/moody-tunes/
 
 Link To Github Repo
 
-https://github.com/Camo282/moody-tunes.git
+https://github.com/deepvelvet/moody-tunes
 
 Screenshot Of Working Application
 
