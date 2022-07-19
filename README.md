@@ -10,10 +10,9 @@ Tecnologies used
 
 Group roles
   - Chris Champagne: Weather API/HTML/CSS
-  - Clark Hou: Javascript/Weather API/Youtube API/Html/Css
+  - Clark Hou: Javascript/Weather API/Youtube API/HTML/CSS
   - David Miller: CSS/HTML
   - John Sheridan: Presentation/Github
-  - Daniel Chow
 
 Link To Projects Deployed Address
 
